@@ -1,0 +1,39 @@
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+    visibility: hidden;
+}
+
+.container:hover .template-logo{
+    transform: rotate(225deg) scale(1.1);
+}
+
+.container:hover .name-header{
+    transform: rotate(225deg) scale(1.1);
+    transform: scale(1.1);
+    margin-left: 10px;
+}
+
+.template-logo{
+    width: 35px;
+    transform: rotate(45deg) scale(1);
+    transition: transform 0.3s ease;
+    visibility: visible;
+
+}
+
+.name-header{
+    margin-left: 5px;
+    transform: scale(1);
+    transition: transform 0.3s ease, margin-left 0.3s ease;
+    visibility: visible;
+}
+
+
+
+
